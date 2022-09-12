@@ -60,7 +60,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
             }
           }),
       bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.pink,
+          backgroundColor: Theme.of(context).primaryColor,
           unselectedItemColor: Colors.white.withOpacity(.7),
           selectedItemColor: Colors.white,
           currentIndex: selectedIndex,
